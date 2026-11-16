@@ -45,3 +45,6 @@ while read -r ip host rest; do
     verifica_ip_dns "$host" "$ip" "$DNS_SERVER"
 done < "$HOSTS_FILE"
 EOF
+
+
+echo "# Modificat de Studentul A" >> check_hosts.sh
